@@ -1,0 +1,7 @@
+import math
+# hypotenuse of a triangle
+
+a = float(input('input the adjacent of the  triangle : '))
+o = float(input('input the opposite of the triangle : '))
+hypotenuse = math.sqrt(pow(o,2) + pow(a,2))
+print(f'the hypotenuse of the triangle is : {round(hypotenuse,2)}cm')
