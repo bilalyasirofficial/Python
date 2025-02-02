@@ -1,0 +1,7 @@
+import math
+# Calculate the circumference of a circle,  formula :  c = 2πr
+
+#radius = float(input('enter the radius of the circle : '))
+#circumference = 2 * math.pi * radius
+
+#print(f'the circumference of the circle is : {round(circumference,3)} metres ')
