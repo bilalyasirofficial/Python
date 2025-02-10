@@ -1,0 +1,6 @@
+name = input('enter your name: ').strip() #strip ensures no spaces are counted as an input
+
+if bool(name):
+    print(f'hello {name}!')
+else:
+    print('no name entered!')
