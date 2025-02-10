@@ -1,0 +1,8 @@
+response = input('do you want to eat a pizza?(Y/N) : ')
+
+if response == "Y" or response == "y":
+    print("here's a pizza!")
+elif response == "N" or response == "n":
+    print("okay, i'll store it for later!")
+else:
+    print('wrong input! use either "Y" or "N"')
