@@ -1,0 +1,7 @@
+is_online = False
+
+
+if is_online:
+    print('user is online')
+else:
+    print('user is offline')
