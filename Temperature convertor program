@@ -1,0 +1,17 @@
+# temperature convertor program
+# °F = (°C x 9/5) + 32
+# °C = (°F - 32) × 5/9
+
+unit = input('specify the unit for the temperature value (C/F): ')
+temp = float(input('enter the temperature value: '))
+
+if unit == 'C' or unit == 'c':
+    temp = round(((temp * 9) / 5) + 32,2)
+    print(f"the temperature in fahrenheit is: {temp}°F ")
+
+elif unit == 'F' or unit == 'f':
+    temp = round(((temp - 32) * 5) / 9,2)
+    print(f'the temperature in celsius is {temp}°C')
+
+else:
+    print(f"{unit} is invalid! enter the correct unit to continue!")
